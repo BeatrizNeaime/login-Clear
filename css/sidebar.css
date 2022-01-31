@@ -1,0 +1,155 @@
+body{
+    display: flex;
+}
+
+.sidebar{
+    background-color: #050b17;
+    height: 100vh;
+    width: 340px;
+}
+
+.logo{
+    align-items: center;
+    display:block;
+    justify-content:left;
+    margin-left: 55px;
+    padding-top: 50px;
+}
+
+.content{
+    color: rgba(255,255,255,.5);
+    margin: 3rem;
+}
+
+.content p{
+    color: rgba(255,255,255,.5);
+    font-family: "Montserrat-UltraLight",sans-serif; 
+}
+
+.content .tittle{
+    font-size: 11px;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+}
+
+.content .ainda{
+    display: block;
+    float: left;
+    font-size: 24px;
+    margin: 10px 0 35px 0;
+}
+
+.contaBtn{
+    background: #4088f6;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
+    color: #fff;
+    display: block;
+    float: left;
+    font-family: "Montserrat-SemiBold",sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    min-width: 166px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 13px 23px;
+}
+
+.main-content{
+    background-color: #e7e7e7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 340px; top: 0;
+    right: 0; bottom: 0;
+    width: calc(100%-340px);
+}
+
+.quadrado{
+    background-color: #fff;
+    box-shadow: 0 16px 30px 0 rgba(0, 0, 0, .1);
+    border-radius: 8px;
+    font-family: "Montserrat-SemiBold",sans-serif;
+    /* height: 375px; */
+    padding: 56px;
+    /* width: 480px;     */
+}
+
+.quadrado h5{
+    color: #272728;
+    font-family: 'Montserrat-UltraLight', sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+.quadrado .login{
+    color: #969191;
+    font-family: 'Montserrat-UltraLight', sans-serif;
+    font-size: 12px;
+    padding-top: 8px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: 25px auto;
+}
+
+.form label{
+    color: #969191;
+    font-family: 'Montserrat-UltraLight', sans-serif;
+    font-size: 12px;
+}
+
+.nasc{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nasc .nascimento, .nasc .senha{
+    display: flex;
+    flex-direction: column;
+    margin: 1.1rem 1.2rem 0 0;
+}
+
+.form .senha{
+    margin-right: 0;
+}
+
+.form input{
+    border: 1px solid rgba(150, 145, 145, 0.4);
+    border-radius: 3px;
+    height: 1.8rem;
+    margin-top: 3px;
+}
+
+.form input::placeholder{
+    font-size: 1rem;
+    line-height: normal;
+    padding: 5px;
+    text-align: left;
+}
+
+.acessar{
+    background-color: #4088f6;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-family: 'Montserrat-UltraLight', sans-serif;
+    font-weight: bold;
+    height: 3rem;
+    margin: 2rem 3rem 2rem 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.esqueci{
+    align-items: center;
+    color: #4088f6;
+    display: flex;
+    font-size: 11px;
+    justify-content: space-evenly;
+}
